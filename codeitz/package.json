@@ -1,0 +1,19 @@
+{
+  "name": "@codebiz/codeitz",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free, reviewable workspace and app scaffolding automation",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "plan": "node runner.mjs workspace",
+    "upgrade:plan": "node runner.mjs upgrade",
+    "github": "node tools/github-helper.mjs",
+    "version:show": "node tools/version-update.mjs show",
+    "version:check": "node tools/version-update.mjs check",
+    "version:bump": "node tools/version-update.mjs bump"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sourceRepository": "https://github.com/CODEXSUN/codexsun.git",
+  "reviewedCommit": "5e33dfc44499a92fe703e84ca0419913ba57c652",
+  "reviewedDate": "2026-11-15",
+  "scope": "Static source review of GitHub helper, version tooling, associated checks and tests",
+  "sourceFiles": [
+    "tools/github-helper.mjs",
+    "tools/version-bump.mjs",
+    "tools/version/version.mjs",
+    "tools/check-versions.mjs",
+    "tools/changelog.mjs",
+    "tools/version-bump.test.mjs"
+  ],
+  "adaptation": "Source-informed reimplementation for independent package roots and explicit reviewed operations; no upstream files copied verbatim",
+  "audit": "../docs/audits/2026-11-15-codexsun-tools.md"
+}
